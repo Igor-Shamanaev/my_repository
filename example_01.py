@@ -1,6 +1,11 @@
-n_1 = "1"
-n_2 = "2"
-print(n_1 + n_2)
-n_1 = int(n_1)
-n_2 = int(n_2)
-print(n_1 + n_2)
+product = input()
+price = int(input())
+weight = int(input())
+amount = int(input())
+print('================Чек================')
+print(f"Товар: {product}")
+print(f"Цена: {weight}кг * {price}руб/кг")
+print(f"Итого: {price*weight}руб")
+print(f"Внесено: {amount}руб")
+print(f"Сдача: {amount-price*weight}руб")
+print('===================================')
